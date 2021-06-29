@@ -16,4 +16,4 @@ app.get('/*', function (req, res) {
     res.status(404).sendFile(__dirname + '/rip.jpg');
 })
 
-app.listen('81')
+app.listen('80')
